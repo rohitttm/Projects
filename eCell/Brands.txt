@@ -1,0 +1,17 @@
+ASHISH
+1.	apple
+2.	blackberry
+3.	samsung
+4.	micromax
+
+VIJAY
+5.	htc
+6.	karbonn
+7.	motorola
+8.	nokia
+
+NEERAJ
+9.	lg
+10.	sony xperia
+11.	sony ericson
+12.	spice

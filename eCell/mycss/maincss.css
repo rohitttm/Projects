@@ -1,0 +1,115 @@
+.button{
+-webkit-border-radius:7px;
+text-align:center;
+font:15px Tahoma;
+margin:5px;
+padding:3px;
+}
+
+body{
+	margin:0;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: justify;
+	font-family: Segoe UI;
+	font-size: 20;
+}
+
+div{
+	margin:0;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:auto;
+	display:block;
+	height:auto;
+}
+
+span{
+	font-weight: bold;
+	text-decoration:underline;
+	color:#024174;
+	font-size:30;
+	text-align:center;
+}
+
+#core{
+	display:block;
+	text-align:justify;
+}
+
+#left{
+	margin:5;
+	padding:3px;
+	display:-webkit-box;
+	border-right:1px solid #343434;
+}
+
+#mainbody{
+	padding:5px;
+	margin:5;
+	display:-webkit-box;
+}
+
+#ads{
+	padding:1px;
+	text-align:center;
+	border-left:1px solid #343434;
+}
+
+#ads:hover{
+	position:relative;
+	right:3px;
+	top:3px;
+}
+
+a:link{
+	font-style:italic;
+	color:#005886;
+	text-decoration:none;
+}
+
+a:hover{
+	
+	color:maroon;
+	text-decoration:underline;
+}
+
+a:active{
+	color:#864200;
+	text-decoration:none;
+}
+
+a:visited{
+	
+	color:#455B67;
+	text-decoration:none;
+}
+
+tr.border_bottom th{
+	border:thin solid;
+    border-color:black;
+}
+tr.border_right th{
+	border-right:thin solid;
+    border-color:black;
+}
+
+
+
+a.glow1, a.glow1:hover, a.glow1:focus
+{
+	text-decoration: none;
+	color: black;
+	text-shadow: none;
+	-webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
+}
+
+a.glow1:hover, a.glow1:focus
+{
+	color: red;
+	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+}

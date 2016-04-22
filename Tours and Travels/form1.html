@@ -1,0 +1,53 @@
+<html>
+<head>
+<script>
+function validate()
+{
+ var x=document.forms["archu"]["firstname"].value;
+var y=document.forms["archu"]["lastname"].value;
+var num=document.forms["archu"]["no"].value;
+var a=document.forms["archu"]["Email"].value;
+var pos=a.indexOf("@");
+var pos1=a.lastIndexOf(".");
+if(x == null || x== "")
+{
+alert("PLEASE ENTER THE FIRST NAME");
+return false;
+}
+if(y== null || y== "")
+{
+alert("PLEASE ENTER THE LAST NAME");
+return false;
+}
+if(isNaN(num))
+ alert("PHONE NO MUST BE IN DIGITS");
+if(num.length!=10)
+  alert("PHONE NO MUST 10 DIGITS");
+if (pos<1 || pos1<pos+2 || pos1+2>a.length)
+  {
+   alert("Not a valid e-mail address");
+   return false;
+  }
+}
+
+</script>
+</head>
+<body>
+<h1 align ="center"> Registration Form </h1>
+<pre><form name="archu" onSubmit="return validate()">
+First name<sup>*</sup> : <input type ="text" name="firstname" /><br/><br/>
+Last name<sup>*</sup> : <input type ="text" name="lastname"/><br/><br/>
+<p>Gender</p>
+<input type="radio" name="sex" value="male" /> Male
+<input type="radio" name="sex" value="female" /> Female
+<br/>
+Address: <textarea rows="1" cols="40"></textarea><br/><br/>
+LoginID/Email<sup>*</sup>:<input type ="Large Text" name="Email" /><br/><br/>
+Password:<input type ="password" name="pwd" /><br/><br/>
+Confirm Password: <input type ="password" name="pwd" /><br/><br
+Phone No:</br><br/>
+Mobile<sup>*</sup> :<input type ="text" name="no" /><br><br>
+<input type="submit" value="submit"/></pre>
+</form>
+</body>
+</html>

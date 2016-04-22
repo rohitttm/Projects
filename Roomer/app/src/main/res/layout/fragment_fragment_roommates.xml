@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.rohit.roomer.fragmentRoommates"
+    android:orientation="vertical"
+    android:background="#1abc9c">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SEARCH FOR ROOMMATES"
+        android:id="@+id/textView7"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:background="#2c3e50"
+        android:textColor="#ffffffff"
+        android:layout_marginBottom="25dp"
+        android:textAlignment="center"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:textColor="#ffffffff"
+        android:id="@+id/sUniversities"
+        android:hint="Enter University"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sCity"
+        android:padding="15dp"
+        android:textColor="#ffffffff"
+        android:hint="Enter City"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

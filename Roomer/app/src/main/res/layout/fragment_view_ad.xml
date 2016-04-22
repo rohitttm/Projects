@@ -1,0 +1,129 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1abc9c">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.rohit.roomer.fragment_view_ad"
+
+        android:orientation="vertical"
+        >
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/titleViewAd"
+
+            android:padding="10dp"
+            android:text="VIEW AD"
+            android:layout_marginBottom="25dp"
+            android:layout_gravity="center"
+            android:background="#2c3e50"
+            android:textColor="#ffffffff"
+            android:textAlignment="center"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPostalAddress"
+            android:textColor="#ffffffff"
+            android:ems="10"
+            android:paddingLeft="10dp"
+            android:hint="Enter University"
+            android:layout_marginBottom="25dp"
+            android:id="@+id/viewUniversity"
+            android:layout_gravity="center_horizontal" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:paddingLeft="10dp"
+            android:textColor="#ffffffff"
+            android:hint="Enter the City"
+            android:layout_marginBottom="25dp"
+            android:id="@+id/viewCity"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:paddingLeft="10dp"
+            android:hint="Add Requirements"
+            android:layout_marginBottom="25dp"
+            android:id="@+id/adDesc"
+            android:layout_gravity="center_horizontal" />
+
+
+        <!--<SeekBar-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/seekBar2"-->
+        <!--android:layout_gravity="center_horizontal" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+        <!--android:text="Furnishing"-->
+        <!--android:layout_marginBottom="25dp"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:id="@+id/textView6" />-->
+
+        <!--<RadioGroup-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="25dp"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<RadioButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Full"-->
+        <!--android:id="@+id/radioButton111"-->
+        <!--android:layout_marginRight="25dp"-->
+        <!--android:checked="false" />-->
+
+        <!--<RadioButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_marginRight="25dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Semi"-->
+        <!--android:id="@+id/radioButton222"-->
+        <!--android:checked="false" />-->
+
+        <!--<RadioButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="None"-->
+        <!--android:id="@+id/radioButton333"-->
+        <!--android:checked="false" />-->
+        <!--</RadioGroup>-->
+
+        <!--<Button-->
+        <!--style="?android:attr/buttonStyleSmall"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Add Photo"-->
+        <!--android:id="@+id/addPhotoAd"-->
+        <!--android:layout_gravity="center_horizontal" />-->
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:id="@+id/buttonViewAds"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</ScrollView>

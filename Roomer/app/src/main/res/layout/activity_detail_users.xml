@@ -1,0 +1,105 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1abc9c"
+    android:textColor="#ffffff"
+
+    >
+
+<LinearLayout  android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rohit.roomer.detailUsers"
+    android:orientation="vertical"
+    >
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textFullName"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:background="#2c3e50"
+        android:textColor="#ffffffff"
+        android:textAlignment="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:capitalize="characters" />
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/textFullName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textEmail"
+        android:onClick="processEmail"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textUniversity"
+        android:layout_below="@+id/textEmail"
+        android:clickable="true"
+
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textCity"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textAge"
+        android:layout_below="@+id/textCity"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textPhoneNumber"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textAge"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="processPhone"
+        android:layout_marginTop="10dp"
+        android:clickable="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD TO FAVOURITES"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+
+</ScrollView>

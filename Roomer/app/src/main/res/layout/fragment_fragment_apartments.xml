@@ -1,0 +1,207 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1abc9c">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.rohit.roomer.fragmentApartments"
+        android:orientation="vertical"
+        >
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="SEARCH FOR APARTMENTS"
+            android:id="@+id/textView7"
+            android:padding="10dp"
+            android:layout_gravity="center"
+
+            android:background="#2c3e50"
+            android:textColor="#ffffffff"
+            android:layout_marginBottom="35dp"
+            android:textAlignment="center"
+            android:gravity="center_vertical|center_horizontal" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter University / City"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="20dp"
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/universityAp"
+            android:layout_gravity="center_horizontal" />
+
+        <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/cityAp"-->
+            <!--android:hint="Enter City"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--android:layout_marginRight="15dp"-->
+            <!--android:layout_marginLeft="15dp"-->
+            <!--android:layout_gravity="center_horizontal" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+        <!--android:text="Sort By"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:layout_marginBottom="25dp"-->
+        <!--android:id="@+id/textView2" />-->
+
+        <!--<RadioGroup-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="25dp"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<RadioButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Rate"-->
+        <!--android:id="@+id/radioButton"-->
+        <!--android:layout_marginRight="25dp"-->
+        <!--android:checked="false" />-->
+
+        <!--<RadioButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_marginRight="25dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Distance"-->
+        <!--android:id="@+id/radioButton2"-->
+        <!--android:checked="false" />-->
+
+        <!--<RadioButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Relevance"-->
+        <!--android:id="@+id/radioButton3"-->
+        <!--android:checked="false" />-->
+        <!--</RadioGroup>-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+        <!--android:text="Type"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:layout_marginBottom="25dp"-->
+        <!--android:id="@+id/textView3" />-->
+
+        <!--<RadioGroup-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="25dp"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<RadioButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Shared"-->
+        <!--android:id="@+id/radioButton1"-->
+        <!--android:layout_marginRight="45dp"-->
+        <!--android:checked="false" />-->
+
+        <!--<RadioButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_marginRight="25dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Full"-->
+        <!--android:id="@+id/radioButton22"-->
+        <!--android:checked="false" />-->
+
+        <!--</RadioGroup>-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+        <!--android:text="Within ( miles )"-->
+        <!--android:layout_marginBottom="25dp"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:id="@+id/textView4" />-->
+
+        <!--<SeekBar-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="25dp"-->
+        <!--android:id="@+id/seekBar"-->
+        <!--android:layout_gravity="center_horizontal" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+        <!--android:text="Rent"-->
+        <!--android:layout_marginBottom="25dp"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:id="@+id/textView5" />-->
+
+        <!--<SeekBar-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/seekBar2"-->
+        <!--android:layout_gravity="center_horizontal" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+        <!--android:text="Furnishing"-->
+        <!--android:layout_marginBottom="25dp"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:id="@+id/textView6" />-->
+        <!--<RadioGroup-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="25dp"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<RadioButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Full"-->
+        <!--android:id="@+id/radioButton111"-->
+        <!--android:layout_marginRight="25dp"-->
+        <!--android:checked="false" />-->
+
+        <!--<RadioButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_marginRight="25dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Semi"-->
+        <!--android:id="@+id/radioButton222"-->
+        <!--android:checked="false" />-->
+
+        <!--<RadioButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="None"-->
+        <!--android:id="@+id/radioButton333"-->
+        <!--android:checked="false" />-->
+        <!--</RadioGroup>-->
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:id="@+id/button3"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</ScrollView>
