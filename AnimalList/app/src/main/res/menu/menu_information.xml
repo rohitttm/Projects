@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.rohit.animallist.informationActivity">
+
+    <item android:id="@+id/information"
+        android:title="Information"
+        android:orderInCategory="101" />
+    <item android:id="@+id/uninstall"
+        android:title="Uninstall"
+        android:orderInCategory="102"/>
+</menu>
